@@ -5,12 +5,14 @@
   "main": "index.js",
   "engines": {
     "node": "16.2.x"
-  },"scripts": {
+  },
+  "scripts": {
     "test": "node app/server.js"
   },
   "dependencies": {
-    "express":"*"
- },
+    "express": "^4.17.1",
+    "ws": "^7.5.3"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
