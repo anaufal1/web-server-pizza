@@ -22,7 +22,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script>
 
-        const ws = new WebSocket("ws://localhost:3000");
+        let HOST = location.origin.replace(/^http/, 'ws');
+        const ws = new WebSocket(HOST);
 
         var pesanan_sekarang = "";
         ws.addEventListener("open", () => {
