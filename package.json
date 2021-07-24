@@ -6,12 +6,10 @@
   "engines": {
     "node": "16.2.x"
   },"scripts": {
-    "test": "node server.js"
+    "test": "node app/server.js"
   },
   "dependencies": {
-    "express":"*",
-    "body-parser":"*",
-    "bcrypt": "^0.8.5"
+    "express":"*"
  },
   "keywords": [],
   "author": "",
