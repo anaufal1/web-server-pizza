@@ -24,6 +24,7 @@
 
         let HOST = location.origin.replace(/^http/, 'ws');
         const ws = new WebSocket(HOST);
+        console.log(HOST);
 
         var pesanan_sekarang = "";
         ws.addEventListener("open", () => {
