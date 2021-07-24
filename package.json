@@ -8,6 +8,11 @@
   },"scripts": {
     "test": "node server.js"
   },
+  "dependencies": {
+    "express":"*",
+    "body-parser":"*",
+    "bcrypt": "^0.8.5"
+ },
   "keywords": [],
   "author": "",
   "license": "ISC"
